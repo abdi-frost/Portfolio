@@ -1,5 +1,7 @@
 import Image from "next/image";
-import ProfileImg from "../public/img/profileImg.jpg";
+import ProfileImg from "../public/img/myimgsmall.jpg";
+
+// const hostedImage = "https://ibb.co/S30jL4P"
 
 const Banner = () => {
   return (
@@ -9,19 +11,20 @@ const Banner = () => {
         <Image
           className="w-full h-full rounded-full border-[1px] border-indigo-700 p-2 object-cover"
           src={ProfileImg}
+          width={100}
+          height={100}
           alt="ProfileImg"
         />
       </div>
       {/* Description */}
       <div className="w-3/4 flex flex-col items-center md:items-start    gap-2">
-        <h1 className="text-5xl font-bold text-white">John Doe</h1>
+        <h1 className="text-5xl font-bold text-white">Abdi Megersa</h1>
         <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
-          Full Stack Developer
+          Web Developer
         </h3>
         <p className="text-base tracking-wide text-center md:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum
-          consequuntur soluta explicabo saepe voluptate atque accusantium quasi
-          perspiciatis, quos quaerat odit voluptatem, debitis culpa!
+        I'm a passionate web developer specializing in front-end development. 
+        I bring websites and applications to life using JavaScript and a keen eye for user experience.
         </p>
       </div>
     </div>
