@@ -1,0 +1,12 @@
+export { default as Aboutme } from './Aboutme';
+export { default as Banner } from './Banner';
+export { default as Contact } from './Contact';
+export { default as Experience } from './Experience';
+export { default as ExperienceCard } from './ExperienceCard';
+export { default as Footer } from './Footer';
+export { default as Projects } from './Projects';
+export { default as ProjectCard } from './ProjectCard';
+export { default as Skills } from './Skills';
+export { default as SkillsInput } from './SkillsInput';
+export { default as SocialLink } from './SocialLink';
+export { default as Title } from './Title';
