@@ -48,8 +48,8 @@ const Skills = () => {
         {/* <SkillsInput title="Trello" link="https://trello.com/en" /> */}
         {/* <SkillsInput title="GitKraken" link="https://www.gitkraken.com/" /> */}
         <SkillsInput title="UI Design" link="https://www.figma.com/" />
-        {/* <SkillsInput title="Figma" link="https://www.figma.com/" /> */}
-        {/* <SkillsInput title="Canva" link="https://www.canva.com/" /> */}
+        <SkillsInput title="Figma" link="https://www.figma.com/" />
+        <SkillsInput title="Canva" link="https://www.canva.com/" />
         {/* <SkillsInput title="Brand & LogoDesign" link="https://dribbble.com/" /> */}
         <SkillsInput title="Website Design" link="https://themeforest.net/" />
         <SkillsInput title="Vercel" link="https://vercel.com/" />
