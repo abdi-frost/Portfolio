@@ -15,6 +15,7 @@ const Skills = () => {
         <SkillsInput title="Nextjs" link="https://nextjs.org/" />
         <SkillsInput title="Angular" link="https://angular.org/" />
         <SkillsInput title="Nodejs" link="https://nodejs.org/en" />
+	<SkillsInput title="Flutter" link="https://flutter.dev" />
         <SkillsInput
           title="Typescript"
           link="https://www.typescriptlang.org/"
